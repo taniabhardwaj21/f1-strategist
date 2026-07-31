@@ -1,0 +1,456 @@
+{
+  "fold_metrics": {
+    "1": {
+      "precision": 0.7272727272727273,
+      "recall": 0.7591240875912408,
+      "f1": 0.7428571428571429,
+      "TN": 4417,
+      "FP": 39,
+      "FN": 33,
+      "TP": 104,
+      "races": [
+        "Abu Dhabi Grand Prix",
+        "Bahrain Grand Prix",
+        "Chinese Grand Prix",
+        "Dutch Grand Prix"
+      ]
+    },
+    "2": {
+      "precision": 0.7743589743589744,
+      "recall": 0.8988095238095238,
+      "f1": 0.8319559228650137,
+      "TN": 5212,
+      "FP": 44,
+      "FN": 17,
+      "TP": 151,
+      "races": [
+        "Australian Grand Prix",
+        "Austrian Grand Prix",
+        "Belgian Grand Prix",
+        "Italian Grand Prix",
+        "Singapore Grand Prix"
+      ]
+    },
+    "3": {
+      "precision": 0.46113989637305697,
+      "recall": 0.5028248587570622,
+      "f1": 0.4810810810810811,
+      "TN": 5201,
+      "FP": 104,
+      "FN": 88,
+      "TP": 89,
+      "races": [
+        "British Grand Prix",
+        "Hungarian Grand Prix",
+        "Mexico City Grand Prix",
+        "Qatar Grand Prix",
+        "United States Grand Prix"
+      ]
+    },
+    "4": {
+      "precision": 0.6205357142857143,
+      "recall": 0.896774193548387,
+      "f1": 0.7335092348284961,
+      "TN": 5184,
+      "FP": 85,
+      "FN": 16,
+      "TP": 139,
+      "races": [
+        "Las Vegas Grand Prix",
+        "Monaco Grand Prix",
+        "Saudi Arabian Grand Prix",
+        "Spanish Grand Prix",
+        "S\u00e3o Paulo Grand Prix"
+      ]
+    },
+    "5": {
+      "precision": 0.5791666666666667,
+      "recall": 0.8273809523809523,
+      "f1": 0.6813725490196079,
+      "TN": 5169,
+      "FP": 101,
+      "FN": 29,
+      "TP": 139,
+      "races": [
+        "Azerbaijan Grand Prix",
+        "Canadian Grand Prix",
+        "Emilia Romagna Grand Prix",
+        "Japanese Grand Prix",
+        "Miami Grand Prix"
+      ]
+    }
+  },
+  "overall_cm": {
+    "TN": 25183,
+    "FP": 373,
+    "FN": 183,
+    "TP": 622
+  },
+  "fold3_race_stats": [
+    {
+      "Race": "British Grand Prix",
+      "TotalLaps": 960,
+      "ActualPits": 45,
+      "TP": 19,
+      "FP": 62,
+      "FN": 26,
+      "TN": 853,
+      "Precision": 0.2345679012345679,
+      "Recall": 0.4222222222222222,
+      "F1": 0.30158730158730157,
+      "NonGreenLaps": 0,
+      "SCVSCLaps": 0,
+      "WetLaps": 234,
+      "FNSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 38.0,
+          "Stint": 2.0,
+          "TyreLife": 11.0,
+          "Compound": "INTERMEDIATE",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.0
+        },
+        {
+          "Driver": "ALO",
+          "LapNumber": 38.0,
+          "Stint": 2.0,
+          "TyreLife": 11.0,
+          "Compound": "INTERMEDIATE",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.00029850746268656717
+        },
+        {
+          "Driver": "BOT",
+          "LapNumber": 37.0,
+          "Stint": 2.0,
+          "TyreLife": 11.0,
+          "Compound": "INTERMEDIATE",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.031366792929292925
+        }
+      ],
+      "FPSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 17.0,
+          "Stint": 1.0,
+          "TyreLife": 17.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.6703488572763728
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 19.0,
+          "Stint": 1.0,
+          "TyreLife": 19.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.972486040961334
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 25.0,
+          "Stint": 1.0,
+          "TyreLife": 25.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.7726545605306279
+        }
+      ]
+    },
+    {
+      "Race": "Hungarian Grand Prix",
+      "TotalLaps": 1355,
+      "ActualPits": 40,
+      "TP": 31,
+      "FP": 5,
+      "FN": 9,
+      "TN": 1310,
+      "Precision": 0.8611111111111112,
+      "Recall": 0.775,
+      "F1": 0.8157894736842105,
+      "NonGreenLaps": 21,
+      "SCVSCLaps": 0,
+      "WetLaps": 0,
+      "FNSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 6.0,
+          "Stint": 1.0,
+          "TyreLife": 6.0,
+          "Compound": "SOFT",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.2135851931693903
+        },
+        {
+          "Driver": "ALO",
+          "LapNumber": 7.0,
+          "Stint": 1.0,
+          "TyreLife": 9.0,
+          "Compound": "SOFT",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.012760169491525425
+        },
+        {
+          "Driver": "BOT",
+          "LapNumber": 45.0,
+          "Stint": 2.0,
+          "TyreLife": 29.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.20347408744469206
+        }
+      ],
+      "FPSamples": [
+        {
+          "Driver": "ALO",
+          "LapNumber": 28.0,
+          "Stint": 2.0,
+          "TyreLife": 22.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.6932610312448299
+        },
+        {
+          "Driver": "MAG",
+          "LapNumber": 69.0,
+          "Stint": 3.0,
+          "TyreLife": 35.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.6178883178130914
+        },
+        {
+          "Driver": "OCO",
+          "LapNumber": 57.0,
+          "Stint": 3.0,
+          "TyreLife": 27.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.6157047327562618
+        }
+      ]
+    },
+    {
+      "Race": "Mexico City Grand Prix",
+      "TotalLaps": 1213,
+      "ActualPits": 21,
+      "TP": 17,
+      "FP": 9,
+      "FN": 4,
+      "TN": 1183,
+      "Precision": 0.6538461538461539,
+      "Recall": 0.8095238095238095,
+      "F1": 0.723404255319149,
+      "NonGreenLaps": 108,
+      "SCVSCLaps": 108,
+      "WetLaps": 0,
+      "FNSamples": [
+        {
+          "Driver": "BOT",
+          "LapNumber": 49.0,
+          "Stint": 1.0,
+          "TyreLife": 50.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.37669811146316595
+        },
+        {
+          "Driver": "LAW",
+          "LapNumber": 65.0,
+          "Stint": 2.0,
+          "TyreLife": 26.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.37272483212297247
+        },
+        {
+          "Driver": "LEC",
+          "LapNumber": 69.0,
+          "Stint": 2.0,
+          "TyreLife": 38.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.31861696749336166
+        }
+      ],
+      "FPSamples": [
+        {
+          "Driver": "ALO",
+          "LapNumber": 15.0,
+          "Stint": 1.0,
+          "TyreLife": 16.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.9797473720681249
+        },
+        {
+          "Driver": "NOR",
+          "LapNumber": 10.0,
+          "Stint": 1.0,
+          "TyreLife": 10.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.8424651428502434
+        },
+        {
+          "Driver": "OCO",
+          "LapNumber": 15.0,
+          "Stint": 1.0,
+          "TyreLife": 15.0,
+          "Compound": "HARD",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.5123366908166462
+        }
+      ]
+    },
+    {
+      "Race": "Qatar Grand Prix",
+      "TotalLaps": 923,
+      "ActualPits": 48,
+      "TP": 21,
+      "FP": 14,
+      "FN": 27,
+      "TN": 861,
+      "Precision": 0.6,
+      "Recall": 0.4375,
+      "F1": 0.5060240963855421,
+      "NonGreenLaps": 226,
+      "SCVSCLaps": 188,
+      "WetLaps": 0,
+      "FNSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 36.0,
+          "Stint": 2.0,
+          "TyreLife": 1.0,
+          "Compound": "SOFT",
+          "TrackStatus": 4,
+          "Pred_Prob": 0.1614665598167018
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 37.0,
+          "Stint": 3.0,
+          "TyreLife": 2.0,
+          "Compound": "SOFT",
+          "TrackStatus": 4,
+          "Pred_Prob": 0.14681616463664807
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 55.0,
+          "Stint": 4.0,
+          "TyreLife": 20.0,
+          "Compound": "SOFT",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.39634321792508137
+        }
+      ],
+      "FPSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 1.0,
+          "Stint": 1.0,
+          "TyreLife": 1.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 124,
+          "Pred_Prob": 0.5661470239121791
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 11.0,
+          "Stint": 1.0,
+          "TyreLife": 11.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.5169886290174187
+        },
+        {
+          "Driver": "ALB",
+          "LapNumber": 34.0,
+          "Stint": 1.0,
+          "TyreLife": 34.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.7338816222927091
+        }
+      ]
+    },
+    {
+      "Race": "United States Grand Prix",
+      "TotalLaps": 1031,
+      "ActualPits": 23,
+      "TP": 1,
+      "FP": 14,
+      "FN": 22,
+      "TN": 994,
+      "Precision": 0.06666666666666667,
+      "Recall": 0.043478260869565216,
+      "F1": 0.05263157894736842,
+      "NonGreenLaps": 105,
+      "SCVSCLaps": 30,
+      "WetLaps": 0,
+      "FNSamples": [
+        {
+          "Driver": "ALB",
+          "LapNumber": 33.0,
+          "Stint": 2.0,
+          "TyreLife": 30.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.013057576005230467
+        },
+        {
+          "Driver": "ALO",
+          "LapNumber": 26.0,
+          "Stint": 1.0,
+          "TyreLife": 26.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.013792792792792791
+        },
+        {
+          "Driver": "BOT",
+          "LapNumber": 15.0,
+          "Stint": 1.0,
+          "TyreLife": 15.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 1,
+          "Pred_Prob": 0.009250000000000001
+        }
+      ],
+      "FPSamples": [
+        {
+          "Driver": "ALO",
+          "LapNumber": 3.0,
+          "Stint": 1.0,
+          "TyreLife": 3.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 24,
+          "Pred_Prob": 0.54471464807045
+        },
+        {
+          "Driver": "BOT",
+          "LapNumber": 3.0,
+          "Stint": 1.0,
+          "TyreLife": 3.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 24,
+          "Pred_Prob": 0.6280582166830792
+        },
+        {
+          "Driver": "BOT",
+          "LapNumber": 5.0,
+          "Stint": 1.0,
+          "TyreLife": 5.0,
+          "Compound": "MEDIUM",
+          "TrackStatus": 41,
+          "Pred_Prob": 0.5658133160250443
+        }
+      ]
+    }
+  ]
+}
